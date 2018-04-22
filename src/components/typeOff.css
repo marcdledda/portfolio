@@ -1,0 +1,22 @@
+.typeImg {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs.containImg {
+    /* max-width: 320px;
+    max-height: 320px; */
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 576px) {
+    .col-xs.containImg {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    /* .row.headType{
+
+    } */
+}
