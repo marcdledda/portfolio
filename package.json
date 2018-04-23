@@ -2,9 +2,12 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://marcdledda.github.io/portfolio",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "deploy": "gh-pages -d build",
     "firebase": "^4.12.1",
+    "predeploy": "npm run build",
     "re-base": "^3.2.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
