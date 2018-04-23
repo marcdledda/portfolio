@@ -1,3 +1,7 @@
 .navBar {
     font-size: 20px;
 }
+
+.navSmall {
+    margin-bottom: 8px;
+}

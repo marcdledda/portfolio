@@ -1,21 +1,31 @@
 import React, { Component } from 'react';
-import typeOffBanner from '../media/typeOffBanner.png';
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+  } from 'react-router-dom';
+import TypeOffMain from './TypeOffMain';
+import typeOffBanner from '../media/typeOffIMG.png';
 import './typeOff.css'
 
 class TypeOff extends Component {
     render(){
         return (
-            <div className="container">
-                <div className="row">
-                    <img className="col img-fluid" src={typeOffBanner} alt="Type Off game banner"/>
-                    <div className="col align-self-center">
-                        <div className="row">TypeOff</div>
-                        <div className="row">An interactive app that uses typing as its main mechanic.</div>
-                        <button className="btn btn-info row">Explore</button>
+            <Router>
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+                            <img className="img-fluid typeOffImg" src={typeOffBanner} alt="TypeOff game banner"/>
+                        </div>
+                        <div className="col-12 align-self-center"><h2 className="typeOffTitle">TypeOff</h2></div>
+                        <div className="col-12 typeOffDesc"><h4>A web game that uses typing as its main mechanic.</h4></div>
+                        <div className="col-12 readBtn">
+                            <Link to="/casestudy/TypeOff" className="btn btn-secondary"><h6>Read More</h6></Link>
+                        </div>
                     </div>
-
+                    <Route path="/casestudy/TypeOff" component={TypeOffMain}/>
                 </div>
-            </div>
+            </Router>
         )
     }
 }
