@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import typeOffBanner from '../media/three.png';
+import typeOffBanner from '../media/typeOffIMG.png';
 import './typeOff.css'
 
 class TypeOff extends Component {
@@ -7,28 +7,14 @@ class TypeOff extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    {/* <div className="col align-self-center">
-                        <img className="img-fluid typeImg" src={typeOffBanner} alt="TypeOff game banner"/>
-                    </div> */}
-                    <div className="col-xs containImg">
-                        <img className="img-fluid" src={typeOffBanner} alt="TypeOff game banner"/>
-                    </div>
                     <div className="col">
-                        <div className="row text-center headType">TypeOff</div>
-                        <div className="row text-center">An interactive app that uses typing as its main mechanic.</div>
-                        <button className="btn btn-info row justify-content-center">Read More</button>
+                        <img className="img-fluid typeOffImg" src={typeOffBanner} alt="TypeOff game banner"/>
                     </div>
-
-                    {/* <div className="col-4 lol">
-                        TEST
+                    <div className="col-12 align-self-center"><h2 className="typeOffTitle">TypeOff</h2></div>
+                    <div className="col-12 typeOffDesc"><h4>A web game that uses typing as its main mechanic.</h4></div>
+                    <div className="col-12 readBtn">
+                        <button className="btn btn-info"><h6 className="moo">Read More</h6></button>
                     </div>
-                    <div className="col-4 lol">
-                        TEST2
-                    </div>
-                    <div className="col-4 lol">
-                        TEST3
-                    </div> */}
-
                 </div>
             </div>
         )

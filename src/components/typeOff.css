@@ -1,22 +1,25 @@
-.typeImg {
-    padding-right: 15px;
-    padding-left: 15px;
+/* .containImg {
+    display: flex;
+} */
+
+.typeOffDesc {
+    color: #8c8c8c;
 }
 
-.col-xs.containImg {
-    /* max-width: 320px;
-    max-height: 320px; */
-    padding-right: 15px;
-    padding-left: 15px;
+.typeOffTitle {
+    margin-top: 18px;
 }
 
 @media only screen and (max-width: 576px) {
-    .col-xs.containImg {
-        padding-right: 0px;
+    .typeOffDesc {
+        text-align: center;
+    }
+    .typeOffTitle {
+        text-align: center;
         padding-left: 0px;
     }
-
-    /* .row.headType{
-
-    } */
+    .readBtn {
+        display: flex;
+        justify-content: center;
+    }
 }
