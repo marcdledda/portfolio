@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import Greeting from './Greeting';
 import TypeOff from './TypeOff';
 
 class Main extends Component {
     render(){
         return(
-            <TypeOff />
+            <div>
+                <Greeting />
+                <TypeOff />
+            </div>
         )
     }
 }

@@ -15,12 +15,11 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <div className="container">
+          <div className="container navContain">
             <div className="row">
-              <div className="col-sm-6 navLink"><Link to="/"><h1>Marc Ledda</h1></Link></div>
-              <div className="col-sm align-self-center navLink">Work</div>
-              <div className="col-sm align-self-center navLink">Resume</div>
-              <div className="col-sm align-self-center navLink">About</div>
+              <div className="col-sm-6 navHome"><h3><Link to="/">Marc Ledda</Link></h3></div>
+              <div className="col-sm align-self-center text-right">Resume</div>
+              <div className="col-sm align-self-center text-center">About</div>
             </div>
           </div>
           <Route exact path="/" component={Main} />
