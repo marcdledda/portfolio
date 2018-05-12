@@ -24,7 +24,7 @@ class App extends Component {
             </div>
           </div>
           <Route exact path="/" component={Main} />
-          <Route exact path="/About" component={About} />
+          <Route path="/About" component={About} />
           <Route path="/TypeOff" component={TypeOffMain} />
         </div>
       </Router>
