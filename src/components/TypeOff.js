@@ -9,6 +9,16 @@ import Footer from './Footer';
 import './typeOff.css'
 
 class TypeOff extends Component {
+    constructor(props){
+        super(props);
+        this.topFunction = this.topFunction.bind(this);
+    }
+
+    topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
     render(){
         return (
             <div>
@@ -20,7 +30,7 @@ class TypeOff extends Component {
                         <div className="col-12 align-self-center"><h2 className="typeOffTitle">TypeOff</h2></div>
                         <div className="col-12 typeOffDesc"><h4>A web game that uses typing as its main mechanic.</h4></div>
                         <div className="col-12 readBtn">
-                            <Link to="/TypeOff" className="btn btn-secondary"><h6 className="readMore">Read More</h6></Link>
+                            <Link to="/TypeOff" onClick={this.topFunction} className="btn btn-secondary"><h6 className="readMore">Read More</h6></Link>
                         </div>
                     </div>
                 </div>
