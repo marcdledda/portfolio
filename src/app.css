@@ -7,9 +7,16 @@
     margin: 0px;
 }
 
+.navResume {
+    text-align: right;
+}
+
 
 @media only screen and (max-width: 576px) {
     .navHome {
+        text-align: center;
+    }
+    .navResume {
         text-align: center;
     }
 }

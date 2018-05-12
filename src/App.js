@@ -18,7 +18,7 @@ class App extends Component {
           <div className="container navContain">
             <div className="row">
               <div className="col-sm-6 navHome"><h3><Link to="/">Marc Ledda</Link></h3></div>
-              <div className="col-sm align-self-center text-right">Resume</div>
+              <div className="col-sm navResume align-self-center">Resume</div>
               <div className="col-sm align-self-center text-center">About</div>
             </div>
           </div>
