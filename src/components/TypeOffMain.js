@@ -11,7 +11,7 @@ class TypeOffMain extends Component {
                 <div className="container">
                     <div className="row px-lg-5">
                         <div className="col pl-lg-5 pr-lg-4 centerItem">
-                            <h4>What is TypeOff?</h4>
+                            <h2>What is TypeOff?</h2>
                             <p>
                                 TypeOff is a browser game that uses typing as its main mechanic. The game focuses on how fast the user can type and comparing their scores to other users.
                             </p>
@@ -52,6 +52,12 @@ class TypeOffMain extends Component {
                         </div>
                     </div>
                     
+                    <div className="row">
+                        <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
+                            <h2>Target Market</h2>
+                        </div>
+                    </div>
+
                 </div>
                 <Footer />
             </div>

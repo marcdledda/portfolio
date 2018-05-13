@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Greeting from './Greeting';
 import TypeOff from './TypeOff';
+import Footer from './Footer';
 
 class Main extends Component {
     render(){
@@ -8,6 +9,7 @@ class Main extends Component {
             <div>
                 <Greeting />
                 <TypeOff />
+                <Footer />
             </div>
         )
     }

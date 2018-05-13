@@ -5,8 +5,7 @@ import {
     Link
   } from 'react-router-dom';
 import typeOffBanner from '../media/typeOffIMG.png';
-import Footer from './Footer';
-import './typeOff.css'
+import './mainItem.css'
 
 class TypeOff extends Component {
     constructor(props){
@@ -21,20 +20,15 @@ class TypeOff extends Component {
 
     render(){
         return (
-            <div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col">
-                            <img className="img-fluid typeOffImg" src={typeOffBanner} alt="TypeOff game banner"/>
-                        </div>
-                        <div className="col-12"><h2 className="typeOffTitle">TypeOff</h2></div>
-                        <div className="col-12 typeOffDesc"><h4>A web game that uses typing as its main mechanic.</h4></div>
-                        <div className="col-12 readBtn">
-                            <Link to="/TypeOff" onClick={this.topFunction} className="btn btn-secondary"><h6 className="readMore">Read More</h6></Link>
-                        </div>
+            <div className="container">
+                <div className="row my-5">
+                    <div className="col centerMainItem">
+                        <img className="img-fluid" src={typeOffBanner} alt="TypeOff game banner"/>
+                        <h2>TypeOff</h2>
+                        <h4 className="typeOffDesc">A web game that uses typing as its main mechanic.</h4>
+                        <Link to="/TypeOff" onClick={this.topFunction} className="btn btn-secondary"><h6 className="readMore m-0">Read More</h6></Link>
                     </div>
                 </div>
-                <Footer />
             </div>
         )
     }
