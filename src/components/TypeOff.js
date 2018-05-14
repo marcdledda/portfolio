@@ -26,7 +26,7 @@ class TypeOff extends Component {
                         <img className="img-fluid" src={typeOffBanner} alt="TypeOff game banner"/>
                         <h2>TypeOff</h2>
                         <h4 className="typeOffDesc">A web game that uses typing as its main mechanic.</h4>
-                        <Link to="/TypeOff" onClick={this.topFunction} className="btn btn-secondary"><h6 className="readMore m-0">Read More</h6></Link>
+                        <Link to="/portfolio/TypeOff" onClick={this.topFunction} className="btn btn-secondary"><h6 className="readMore m-0">Read More</h6></Link>
                     </div>
                 </div>
             </div>

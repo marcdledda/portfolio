@@ -19,14 +19,14 @@ class App extends Component {
         <div>
           <div className="container navContain">
             <div className="row">
-              <div className="col-sm-6 navHome"><h3><Link className="link" to="/">Marc Ledda</Link></h3></div>
+              <div className="col-sm-6 navHome"><h3><Link className="link" to="/portfolio/">Marc Ledda</Link></h3></div>
               <div className="col-sm navResume align-self-center"><a className="link" href={resume} target="_blank" rel="noopener noreferrer">Resume</a></div>
-              <div className="col-sm align-self-center text-center"><Link className="link" to="/About">About</Link></div>
+              <div className="col-sm align-self-center text-center"><Link className="link" to="/portfolio/About">About</Link></div>
             </div>
           </div>
-          <Route exact path="/" component={Main} />
-          <Route path="/About" component={About} />
-          <Route path="/TypeOff" component={TypeOffMain} />
+          <Route exact path="/portfolio/" component={Main} />
+          <Route path="/portfolio/About" component={About} />
+          <Route path="/portfolio/TypeOff" component={TypeOffMain} />
         </div>
       </Router>
     );
