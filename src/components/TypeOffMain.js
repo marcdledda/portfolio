@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import typeOffEX from '../media/typeOffEX.png';
-import typeOffPersona from '../media/typeOffPersona.png';
-import sketches from '../media/sketches.png';
+import typeOffEX from '../media/typeOff/typeOffEX.png';
+import typeOffPersona from '../media/typeOff/typeOffPersona.png';
+import sketches from '../media/typeOff/sketches.png';
+import sketchSpecific from '../media/typeOff/sketchSpecific.png';
 import Footer from './Footer';
 import './typeOffMain.css';
 
@@ -18,7 +19,7 @@ class TypeOffMain extends Component {
                             </p>
                             <a className="btn btn-secondary" href="http://marcdledda.github.io/TypeOff/">Play Game</a>
                             <h4 className="mt-3">Role(s)</h4>
-                            <h6>UI/UX Design</h6>
+                            <h6>UI/UX Designer</h6>
                             <h6>Developer</h6>
                         </div>
                         <div className="col-lg">
@@ -76,8 +77,12 @@ class TypeOffMain extends Component {
                         <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
                             <h2>Sketches</h2>
                             <img className="img-fluid" src={sketches} alt="Sketches of TypeOff"/>
-                            <p>
+                            <p className="px-lg-5 mb-lg-5">
                                 I decided to place all interactions within the HTML canvas, rather than having a menu interface outside the canvas. Initially, I had thought of making the canvas vertical to accomodate mobile users, but decided against it because of the target audience's preferred device being a computer.
+                            </p>
+                            <img className="img-fluid" src={sketchSpecific} alt="Specific sketches of typeoff"/>
+                            <p className="px-lg-5 mb-lg-5">
+                                Parker's score is stored in Google Firebase and then displayed in both the "Scores" page and the "Leaderboards"pages, allowing Parker to keep track of their progress. The "Friends List" page is a way for Parker to compare his score with other users.
                             </p>
                         </div>
                     </div>

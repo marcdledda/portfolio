@@ -4,7 +4,7 @@ import {
     // Route,
     Link
   } from 'react-router-dom';
-import typeOffBanner from '../media/typeOffIMG.png';
+import typeOffBanner from '../media/typeOff/typeOffIMG.png';
 import './mainItem.css'
 
 class TypeOff extends Component {
