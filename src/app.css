@@ -1,0 +1,33 @@
+.navContain {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navHome > h3 {
+    margin: 0px;
+}
+
+.navResume {
+    text-align: right;
+}
+
+.link {
+    color: #007bff;
+    transition: all 0.1s ease-in-out;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .navHome {
+        text-align: center;
+    }
+    .navResume {
+        text-align: center;
+    }
+}

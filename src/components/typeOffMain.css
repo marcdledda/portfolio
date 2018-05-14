@@ -1,0 +1,16 @@
+.personaQuote {
+    color: #60686e;
+}
+
+@media only screen and (max-width: 576px) {
+    .centerItem {
+        text-align: center;
+    }
+    .personaImg{
+        display: block;
+    }
+    .centerImg {
+        display: flex;
+        justify-content: center;
+    }
+}
