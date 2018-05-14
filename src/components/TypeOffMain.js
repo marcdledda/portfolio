@@ -129,6 +129,13 @@ class TypeOffMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row">
+                        <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
+                            <h2>Github</h2>
+                            <p>Look at the code <a href="https://github.com/marcdledda/TypeOff" target="_blank" rel="noopener noreferrer">here!</a></p>
+                        </div>
+                    </div>
+
                 </div>
                 <Footer />
             </div>
