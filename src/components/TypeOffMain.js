@@ -11,7 +11,7 @@ class TypeOffMain extends Component {
             <div>
                 <div className="container">
                     <div className="row px-lg-5">
-                        <div className="col pl-lg-5 pr-lg-4 centerItem">
+                        <div className="col-lg-5 pl-lg-5 pr-lg-4 centerItem">
                             <h2>What is TypeOff?</h2>
                             <p>
                                 TypeOff is a browser game that uses typing as its main mechanic. The game focuses on how fast the user can type and comparing their scores to other users.
@@ -21,7 +21,9 @@ class TypeOffMain extends Component {
                             <h6>UI/UX Design</h6>
                             <h6>Developer</h6>
                         </div>
-                        <img className="img-fluid pl-lg-4 pr-lg-5" src={typeOffEX} alt="TypeOff Example Screen"/>
+                        <div className="col-lg">
+                            <img className="img-fluid pl-lg-4 pr-lg-5" src={typeOffEX} alt="TypeOff Example Screen"/>
+                        </div>
                     </div>
 
                     <div className="row">
@@ -39,28 +41,26 @@ class TypeOffMain extends Component {
                     </div>
                     
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 pb-lg-4">
                             <h4>1. Boring</h4>
                             <p>Many played similar games because they were in a typing class and found it to be very boring and tedious.</p>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 pb-lg-4">
                             <h4>2. Personal Score</h4>
                             <p>To the majority, the personal score is more important than the global score, but having both is still wanted.</p>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 pb-lg-4">
                             <h4>3. Preferred Device</h4>
                             <p>All of the users have never played, nor were they willing, to play a typing game on a phone or a tablet.</p>
                         </div>
                     </div>
                     
-                    <div className="col-12 text-center px-lg-5 mx-auto mt-5">
+                    <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
                         <h2>Target Audience</h2>
                     </div>
 
                     <div className="row px-lg-5 py-lg-4 centerItem centerImg">
-                        <div className="test">
                             <img className="img-fluid personaImg" src={typeOffPersona} alt="TypeOff Persona"/>
-                        </div>
                         <div className="col-lg">
                             <h4>Meet Parker</h4>
                             <p>
@@ -68,6 +68,16 @@ class TypeOffMain extends Component {
                             </p>
                             <p className="personaQuote">
                                 "I want to play a fun game that also allows me to improve my skill."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
+                            <h2>Sketches</h2>
+                            <img className="img-fluid" src={sketches} alt="Sketches of TypeOff"/>
+                            <p>
+                                I decided to place all interactions within the HTML canvas, rather than having a menu interface outside the canvas. Initially, I had thought of making the canvas vertical to accomodate mobile users, but decided against it because of the target audience's preferred device being a computer.
                             </p>
                         </div>
                     </div>
