@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import typeOffEX from '../media/typeOffEX.png';
+import typeOffPersona from '../media/typeOffPersona.png';
 import sketches from '../media/sketches.png';
 import Footer from './Footer';
 import './typeOffMain.css';
@@ -55,6 +56,8 @@ class TypeOffMain extends Component {
                     <div className="row">
                         <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
                             <h2>Target Market</h2>
+                            <img className="img-fluid" src={typeOffPersona} alt="TypeOff Persona"/>
+                            <h4>Parker Hyche</h4>
                         </div>
                     </div>
 
