@@ -1,9 +1,18 @@
 {
-  "main.css": "static/css/main.1bbcc869.css",
-  "main.css.map": "static/css/main.1bbcc869.css.map",
-  "main.js": "static/js/main.f2edfcc4.js",
-  "main.js.map": "static/js/main.f2edfcc4.js.map",
-  "static\\media\\3MonEx.png": "static/media/3MonEx.4b085bcc.png",
+  "main.css": "static/css/main.17f3b9c2.css",
+  "main.css.map": "static/css/main.17f3b9c2.css.map",
+  "main.js": "static/js/main.94c9f65b.js",
+  "main.js.map": "static/js/main.94c9f65b.js.map",
+  "static\\media\\following.png": "static/media/following.692a896b.png",
+  "static\\media\\leaderboards.png": "static/media/leaderboards.a0664471.png",
+  "static\\media\\mainMenu.png": "static/media/mainMenu.c09623a8.png",
+  "static\\media\\marcLedda.pdf": "static/media/marcLedda.63498420.pdf",
+  "static\\media\\myScores.png": "static/media/myScores.3eb34ef4.png",
+  "static\\media\\profImg.jpg": "static/media/profImg.f4164363.jpg",
+  "static\\media\\sketchSpecific.png": "static/media/sketchSpecific.3c2f7411.png",
   "static\\media\\sketches.png": "static/media/sketches.4de0be05.png",
-  "static\\media\\typeOffIMG.png": "static/media/typeOffIMG.face2552.png"
+  "static\\media\\tutorialGame.png": "static/media/tutorialGame.f09c282c.png",
+  "static\\media\\typeOffEX.png": "static/media/typeOffEX.8ca78531.png",
+  "static\\media\\typeOffIMG.png": "static/media/typeOffIMG.bb6698c5.png",
+  "static\\media\\typeOffPersona.png": "static/media/typeOffPersona.ac3a702f.png"
 }
