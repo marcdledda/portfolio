@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import profImg from '../media/profImg.jpg';
 import Footer from './Footer';
-import './about.css';
 
 class About extends Component {
     render(){
