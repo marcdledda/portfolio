@@ -53,11 +53,22 @@ class TypeOffMain extends Component {
                         </div>
                     </div>
                     
-                    <div className="row">
-                        <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
-                            <h2>Target Market</h2>
-                            <img className="img-fluid" src={typeOffPersona} alt="TypeOff Persona"/>
-                            <h4>Parker Hyche</h4>
+                    <div className="col-12 text-center px-lg-5 mx-auto mt-5">
+                        <h2>Target Audience</h2>
+                    </div>
+
+                    <div className="row px-lg-5 py-lg-4 centerItem centerImg">
+                        <div className="test">
+                            <img className="img-fluid personaImg" src={typeOffPersona} alt="TypeOff Persona"/>
+                        </div>
+                        <div className="col-lg">
+                            <h4>Meet Parker</h4>
+                            <p>
+                                Parker plays video games often, as they are his main source of entertainment. Typically, he plays around 1-3 hours a day, if time permits. He is attracted towards the competitive aspect of a game, constantly looking to improve his score.
+                            </p>
+                            <p className="personaQuote">
+                                "I want to play a fun game that also allows me to improve my skill."
+                            </p>
                         </div>
                     </div>
 
