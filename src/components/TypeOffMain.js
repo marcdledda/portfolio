@@ -107,22 +107,22 @@ class TypeOffMain extends Component {
                                 A tutorial page was added so that Parker is informed on how to play the game, as well as load the API in the background.
                             </p>
                             <div className="row">
-                                <div className="col-4">
+                                <div className="col-4 text-center">
                                     <img className="img-fluid" src={myScores} alt="My Scores Page"/>
                                     <p className="font-italic">
                                         User Scores Page
                                     </p>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-4 text-center">
                                     <img className="img-fluid" src={leaderboards} alt="Leaderboards Page"/>
                                     <p className="font-italic">
                                         Leaderboards
                                     </p>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-4 text-center">
                                     <img className="img-fluid" src={following} alt="Following Page"/>
                                     <p className="font-italic">
-                                        Following/Followers
+                                        Following &#38; Followers
                                     </p>
                                 </div>
                             </div>
