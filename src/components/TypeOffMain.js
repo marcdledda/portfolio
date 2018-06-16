@@ -25,7 +25,7 @@ class TypeOffMain extends Component {
                             <a className="btn btn-secondary" href="http://marcdledda.github.io/TypeOff/">Play Game</a>
                             <h4 className="mt-3">Role(s)</h4>
                             <h6>UI/UX Designer</h6>
-                            <h6>Developer</h6>
+                            <h6>Front-end Developer</h6>
                         </div>
                         <div className="col-lg">
                             <img className="img-fluid pl-lg-4 pr-lg-5" src={typeOffEX} alt="TypeOff Example Screen"/>

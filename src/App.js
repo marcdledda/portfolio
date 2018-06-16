@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Main from './components/Main';
 import TypeOffMain from './components/TypeOffMain';
+import WyFyMain from './components/WyFyMain';
 import About from './components/About';
 import resume from './media/marcLedda.pdf';
 import './components/navigation.css';
@@ -27,6 +28,7 @@ class App extends Component {
           <Route exact path="/portfolio/" component={Main} />
           <Route path="/portfolio/About" component={About} />
           <Route path="/portfolio/TypeOff" component={TypeOffMain} />
+          <Route path="/portfolio/WyFy" component={WyFyMain} />
         </div>
       </Router>
     );

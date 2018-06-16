@@ -26,7 +26,7 @@ class WyFy extends Component{
                         <img className="img-fluid" src={wyfyMain} alt="WyFy Banner"/>
                         <h2>WyFy</h2>
                         <h4 className="Desc">An app to find local free wifi hotspots based on your location or zipcode.</h4>
-                        <Link to="/portfolio/TypeOff" onClick={this.topFunction} className="btn btn-secondary"><h6 className="readMore m-0">Read More</h6></Link>
+                        <Link to="/portfolio/WyFy" onClick={this.topFunction} className="btn btn-secondary"><h6 className="readMore m-0">Read More</h6></Link>
                     </div>
                 </div>
             </div>
