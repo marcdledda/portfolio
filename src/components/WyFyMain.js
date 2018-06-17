@@ -18,7 +18,7 @@ class WyFyMain extends Component {
                             <h6>Front-end Developer</h6>
                         </div>
                         <div className="col-lg">
-                            <img className="img-fluid pl-lg-4 pr-lg-5" src={wyfyEX} alt="TypeOff Example Screen"/>
+                            <img className="img-fluid pl-lg-4 pr-lg-5" src={wyfyEX} alt="WyFy Example Screen"/>
                         </div>
                     </div>
 
@@ -66,7 +66,24 @@ class WyFyMain extends Component {
                                 </p>
                             </div>
                         </div>
+                    </div>
 
+                    <div className="row justify-content-center">
+                        <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
+                            <h2>Reflections</h2>
+                        </div>
+
+                        <div className="col-lg-5">
+                            <p><span className="font-weight-bold">Read PhaserJS Documentation.</span> The PhaserJS documentation contains plenty of examples; if I had read through it sooner, some problems could have been avoided.</p>
+                            <p><span className="font-weight-bold">Plan ahead for animation.</span> During development, I had to learn how to use spritesheets in HTML canvas, which took longer than planned.</p>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
+                            <h2>Github</h2>
+                            <p>Look at the code <a href="https://github.com/nss-day-cohort-24/wyfy" target="_blank" rel="noopener noreferrer">here!</a></p>
+                        </div>
                     </div>
                 </div>
                 <Footer />

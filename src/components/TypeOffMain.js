@@ -129,6 +129,17 @@ class TypeOffMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row justify-content-center">
+                        <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
+                            <h2>Reflections</h2>
+                        </div>
+
+                        <div className="col-lg-5">
+                            <p><span className="font-weight-bold">Read PhaserJS Documentation.</span> The PhaserJS documentation contains plenty of examples; if I had read through it sooner, some problems could have been avoided.</p>
+                            <p><span className="font-weight-bold">Plan ahead for animation.</span> During development, I had to learn how to use spritesheets in HTML canvas, which took longer than planned.</p>
+                        </div>
+                    </div>
+
                     <div className="row">
                         <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
                             <h2>Github</h2>
