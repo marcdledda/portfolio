@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import wyfyEX from '../media/wyfy/wyfyEX.png';
 import wyfyPersona from '../media/wyfy/wyfyPersona.png';
+import wyfySearch from '../media/wyfy/wyfyMain.png';
+import wyfyLocation from '../media/wyfy/wyfyLocation.png';
+import wyfyExtend from '../media/wyfy/wyfyExtend.png';
+import wyfyDetails from '../media/wyfy/wyfyDetails.png';
 import Footer from './Footer';
 
 class WyFyMain extends Component {
@@ -68,14 +72,42 @@ class WyFyMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row">
+                        <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
+                            <h2 className="mb-lg-4">Features</h2>
+                            <h4>Search</h4>
+                            <img className="img-fluid" src={wyfySearch} alt="Search"/>
+                            <p className="font-italic pb-lg-5 mb-lg-5">
+                                Search using keywords
+                            </p>
+                            <h4>Geolocation</h4>
+                            <img src={wyfyLocation} alt="Location"/>
+                            <p className="font-italic pb-lg-5 mb-lg-5">
+                                Press the bottom navigation bar to find current location; it also shows how far the location is by miles
+                            </p>
+                            <h4>Extended List View</h4>
+                            <img src={wyfyExtend} alt="Extends"/>
+                            <p className="font-italic pb-lg-5 mb-lg-5">
+                                Press the arrow to extend the view location
+                            </p>
+                            <h4>Details View</h4>
+                            <img src={wyfyDetails} alt="Details"/>
+                            <p className="font-italic">
+                                Pressing more will give the user more details about the location
+                            </p>
+                        </div>
+                    </div>
+
+
                     <div className="row justify-content-center">
                         <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
                             <h2>Reflections</h2>
                         </div>
 
                         <div className="col-lg-5">
-                            <p><span className="font-weight-bold">Read PhaserJS Documentation.</span> The PhaserJS documentation contains plenty of examples; if I had read through it sooner, some problems could have been avoided.</p>
-                            <p><span className="font-weight-bold">Plan ahead for animation.</span> During development, I had to learn how to use spritesheets in HTML canvas, which took longer than planned.</p>
+                            <p><span className="font-weight-bold">Get to know the Google APIs.</span> It was a suprise to find out that in order to get photos from Google, you had to go through two APIs; I could've took the time to read through Google's documentation.</p>
+                            <p><span className="font-weight-bold">Organize the code.</span> Due to the timeframe given, my team and I were rushing to get the minimum viable product as fast as possible and in doing so made our code unorganized.</p>
+                            <p><span className="font-weight-bold">Local Storage.</span> If given more time, it would have been nice to deal more with local storage as it controlled the user's favorites.</p>
                         </div>
                     </div>
 
