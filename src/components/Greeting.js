@@ -8,6 +8,8 @@ class Greeting extends Component {
                 <div className="col text-center p-lg-5 mx-auto m-5">
                     <h1 className="greetMain">Marc Ledda</h1>
                     <p className="greetDesc">FRONT-END WEB DEVELOPER</p>
+                    <p className="greetDesc">GAME DEVELOPER</p>
+                    <p className="greetDesc">UI/UX DESIGNER</p>
                 </div>
             </div>
         )
