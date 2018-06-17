@@ -25,7 +25,7 @@ class TypeOffMain extends Component {
                             <a className="btn btn-secondary" href="http://marcdledda.github.io/TypeOff/">Play Game</a>
                             <h4 className="mt-3">Role(s)</h4>
                             <h6>UI/UX Designer</h6>
-                            <h6>Developer</h6>
+                            <h6>Front-end Developer</h6>
                         </div>
                         <div className="col-lg">
                             <img className="img-fluid pl-lg-4 pr-lg-5" src={typeOffEX} alt="TypeOff Example Screen"/>
@@ -126,6 +126,17 @@ class TypeOffMain extends Component {
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div className="row justify-content-center">
+                        <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
+                            <h2>Reflections</h2>
+                        </div>
+
+                        <div className="col-lg-5">
+                            <p><span className="font-weight-bold">Read PhaserJS Documentation.</span> The PhaserJS documentation contains plenty of examples; if I had read through it sooner, some problems could have been avoided.</p>
+                            <p><span className="font-weight-bold">Plan ahead for animation.</span> During development, I had to learn how to use spritesheets in HTML canvas, which took longer than planned.</p>
                         </div>
                     </div>
 

@@ -4,10 +4,10 @@ import {
     // Route,
     Link
   } from 'react-router-dom';
-import typeOffBanner from '../media/typeOff/typeOffIMG.png';
+import wyfyMain from '../media/wyfy/wyfyMain.png';
 import './mainItem.css'
 
-class TypeOff extends Component {
+class WyFy extends Component{
     constructor(props){
         super(props);
         this.topFunction = this.topFunction.bind(this);
@@ -19,19 +19,19 @@ class TypeOff extends Component {
     }
 
     render(){
-        return (
+        return(
             <div className="container">
                 <div className="row my-5">
                     <div className="col centerMainItem">
-                        <img className="img-fluid" src={typeOffBanner} alt="TypeOff game banner"/>
-                        <h2>TypeOff</h2>
-                        <h4 className="Desc">A web game that uses typing as its main mechanic.</h4>
-                        <Link to="/portfolio/TypeOff" onClick={this.topFunction} className="btn btn-secondary"><h6 className="readMore m-0">Read More</h6></Link>
+                        <img className="img-fluid" src={wyfyMain} alt="WyFy Banner"/>
+                        <h2>WyFy</h2>
+                        <h4 className="Desc">An app to find local free wifi hotspots based on your location or zipcode.</h4>
+                        <Link to="/portfolio/WyFy" onClick={this.topFunction} className="btn btn-secondary"><h6 className="readMore m-0">Read More</h6></Link>
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }
 
-export default TypeOff;
+export default WyFy;

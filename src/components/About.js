@@ -5,7 +5,7 @@ import Footer from './Footer';
 class About extends Component {
     render(){
         return(
-            <div>
+            <div className="container">
                 <div className="row px-lg-5 py-lg-4 centerItem centerImg">
                     <div className="col-4 pl-lg-5 d-lg-flex justify-content-lg-end">
                         <img className="img-fluid" src={profImg} alt="Professional Headshot"/>
