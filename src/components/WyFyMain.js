@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import wyfyEX from '../media/wyfy/wyfyEX.png';
+import wyfyPersona from '../media/wyfy/wyfyPersona.png';
 import Footer from './Footer';
 
 class WyFyMain extends Component {
@@ -48,8 +49,25 @@ class WyFyMain extends Component {
                             <h4>3. Google Maps React</h4>
                             <p>This component is the map used to show the user where they are currently located and where are the free wifi hotspots located.</p>
                         </div>
-                    </div>
 
+                        <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
+                            <h2>Target Audience</h2>
+                        </div>
+
+                        <div className="row px-lg-5 py-lg-4 centerItem centerImg">
+                                <img className="img-fluid personaImg" src={wyfyPersona} alt="WyFy Persona"/>
+                            <div className="col-lg">
+                                <h4>Meet Elliot</h4>
+                                <p>
+                                    Elliot just moved to Nashville for his new developer job. He works remote and on location, and the only place to do work outside of the office is at home. He wants to find new places he can complete work so he isn't stuck at home.
+                                </p>
+                                <p className="personaQuote font-italic">
+                                    "I get a lot of calls about work while I'm out, it's great to know where free local wifi is to help my team."
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
                 <Footer />
             </div>
