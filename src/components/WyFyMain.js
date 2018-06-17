@@ -81,17 +81,17 @@ class WyFyMain extends Component {
                                 Search using keywords
                             </p>
                             <h4>Geolocation</h4>
-                            <img src={wyfyLocation} alt="Location"/>
+                            <img className="img-fluid" src={wyfyLocation} alt="Location"/>
                             <p className="font-italic pb-lg-5 mb-lg-5">
                                 Press the bottom navigation bar to find current location; it also shows how far the location is by miles
                             </p>
                             <h4>Extended List View</h4>
-                            <img src={wyfyExtend} alt="Extends"/>
+                            <img className="img-fluid" src={wyfyExtend} alt="Extends"/>
                             <p className="font-italic pb-lg-5 mb-lg-5">
                                 Press the arrow to extend the view location
                             </p>
                             <h4>Details View</h4>
-                            <img src={wyfyDetails} alt="Details"/>
+                            <img className="img-fluid" src={wyfyDetails} alt="Details"/>
                             <p className="font-italic">
                                 Pressing more will give the user more details about the location
                             </p>
