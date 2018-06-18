@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import tgDownload from '../media/testingGrounds/tgDownload.zip';
 import tgEX from '../media/testingGrounds/tgEX.png';
 import tgPersona from '../media/testingGrounds/tgPersona.png';
 import tgDexTest from '../media/testingGrounds/tgDexTest.png';
@@ -18,7 +19,7 @@ class TGroundsMain extends Component {
                             <p>
                                 Testing Grounds is a virtual application that aims to introduce the user to virtual reality. The application aims to give the user a fun and engaging experience through a series of tests.
                             </p>
-                            <a className="btn btn-secondary" href={tgEX} download="Testing Grounds">Download Game</a>
+                            <a className="btn btn-secondary" href={tgDownload} download="Testing Grounds">Download Game</a>
                             <h4 className="mt-3">Role(s)</h4>
                             <h6>UI/UX Designer</h6>
                             <h6>Developer</h6>
