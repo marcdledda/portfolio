@@ -63,7 +63,7 @@ class TGroundsMain extends Component {
                         <div className="col-lg">
                             <h4>Meet Katy</h4>
                             <p>
-                                Katy casually plays video games in her spare time, typically playing around 2 hours on the weekend. She has heard of Virtual Reality headsets, but does not want if for two reasons: she thinks they are too expensive and that they are just a gimmick.
+                                Katy casually plays video games in her spare time, typically playing around 2 hours on the weekend. She has heard of Virtual Reality headsets, but does not want it for two reasons: she thinks they are a gimmick and they are too expensive.
                             </p>
                             <p className="personaQuote font-italic">
                                 "I want to try Virtual Reality before I consider buying one."
