@@ -103,7 +103,7 @@ class TypeOffMain extends Component {
                             <h4>Tutorial + Main Game</h4>
                             <img className="img-fluid" src={tutorialGame} alt="Main Menu"/>
                             <p className="font-italic pb-lg-5 mb-lg-5">
-                                A tutorial page to inform on how to play the game, as well as load the API in the background. The main game that includes the typing mechanic.
+                                A tutorial page to inform on how to play the game, as well as load the API in the background; the main game that includes the typing mechanic
                             </p>
                             <div className="row">
                                 <div className="col-lg-4 text-center">
@@ -117,7 +117,7 @@ class TypeOffMain extends Component {
                                     <h4>Leaderboards</h4>
                                     <img className="img-fluid" src={leaderboards} alt="Leaderboards Page"/>
                                     <p className="font-italic">
-                                        This pages shows the top 10 scores of all users.
+                                        This pages shows the top 10 scores of all users
                                     </p>
                                 </div>
                                 <div className="col-lg-4 text-center">

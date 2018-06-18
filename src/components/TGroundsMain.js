@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import tgEX from '../media/testingGrounds/tgEX.png';
 import tgPersona from '../media/testingGrounds/tgPersona.png';
+import tgDexTest from '../media/testingGrounds/tgDexTest.png';
+import tgRefTest from '../media/testingGrounds/tgRefTest.png';
+import tgBothTest from '../media/testingGrounds/tgBothTest.png';
+import sketches from '../media/testingGrounds/sketches.png';
 import Footer from './Footer';
 
 class TGroundsMain extends Component {
@@ -66,11 +70,41 @@ class TGroundsMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row">
+                        <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
+                            <h2>Sketches</h2>
+                            <img className="img-fluid" src={sketches} alt="Sketches of Testing Grounds"/>
+                            <p className="px-lg-5 mb-lg-5">
+                                My initial idea to select the tests were to be on a pad that Katy can select. I decided to change it to a pill, as it seemed to fit the theme of a labratory more. Other than that, the room's area was doubled in order to give Katy more space to react to the tests.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
+                            <h2 className="mb-lg-4">Features</h2>
+                            <h4>Dexterity Test</h4>
+                            <img className="img-fluid" src={tgDexTest} alt="Dexterity Test"/>
+                            <p className="font-italic pb-lg-5 mb-lg-5">
+                                This test aims to get Katy moving, showing off the head tracking
+                            </p>
+                            <h4>Reflex Test</h4>
+                            <img className="img-fluid" src={tgRefTest} alt="Reflex Test"/>
+                            <p className="font-italic pb-lg-5 mb-lg-5">
+                                This test will get Katy comfortable with the controllers
+                            </p>
+                            <h4>Composite Test</h4>
+                            <img className="img-fluid" src={tgBothTest} alt="Composite Test"/>
+                            <p className="font-italic pb-lg-5 mb-lg-5">
+                                The last test combines the previous two tests into one composite test
+                            </p>
+                        </div>
+                    </div>                    
+
                     <div className="row justify-content-center">
                         <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
                             <h2>Reflections</h2>
                         </div>
-
                         <div className="col-lg-5">
                             <p><span className="font-weight-bold">Organize Scripts in Folders.</span> This being my first Unity based project, I underestimated the amount of scripts I was going to use; organizing them in folders would be beneficial.</p>
                             <p><span className="font-weight-bold">Plan out Script interactions.</span> A large part of my scripts are IF statements attached to booleans. Being able to map it out on a seperate file would help me map out interactions.</p>
