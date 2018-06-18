@@ -14,6 +14,7 @@ class TGroundsMain extends Component {
                             <p>
                                 Testing Grounds is a virtual application that aims to introduce the user to virtual reality. The application aims to give the user a fun and engaging experience through a series of tests.
                             </p>
+                            <a className="btn btn-secondary" href={tgEX} download="Testing Grounds">Download Game</a>
                             <h4 className="mt-3">Role(s)</h4>
                             <h6>UI/UX Designer</h6>
                             <h6>Developer</h6>
@@ -57,11 +58,29 @@ class TGroundsMain extends Component {
                         <div className="col-lg">
                             <h4>Meet Katy</h4>
                             <p>
-                                Parker plays video games often, as they are his main source of entertainment. Typically, he plays around 1-3 hours a day, if time permits. He is attracted towards the competitive aspect of a game, constantly looking to improve his score.
+                                Katy casually plays video games in her spare time, typically playing around 2 hours on the weekend. She has heard of Virtual Reality headsets, but does not want if for two reasons: she thinks they are too expensive and that they are just a gimmick.
                             </p>
                             <p className="personaQuote font-italic">
                                 "I want to try Virtual Reality before I consider buying one."
                             </p>
+                        </div>
+                    </div>
+
+                    <div className="row justify-content-center">
+                        <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
+                            <h2>Reflections</h2>
+                        </div>
+
+                        <div className="col-lg-5">
+                            <p><span className="font-weight-bold">Organize Scripts in Folders.</span> This being my first Unity based project, I underestimated the amount of scripts I was going to use; organizing them in folders would be beneficial.</p>
+                            <p><span className="font-weight-bold">Plan out Script interactions.</span> A large part of my scripts are IF statements attached to booleans. Being able to map it out on a seperate file would help me map out interactions.</p>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
+                            <h2>Github</h2>
+                            <p>Look at the code <a href="https://github.com/marcdledda/TG_game" target="_blank" rel="noopener noreferrer">here!</a></p>
                         </div>
                     </div>
 
