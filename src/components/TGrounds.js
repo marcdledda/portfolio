@@ -21,8 +21,8 @@ class TGrounds extends Component {
     render(){
         return(
             <div className="container">
-                <div className="row my-5">
-                    <div className="col centerMainItem">
+                <div className="row pb-5 justify-content-center my-5 bottomBorder">
+                    <div className="col-lg-9 centerMainItem">
                         <img className="img-fluid" src={tgMain} alt="Testing Grounds Banner"/>
                         <h2>Testing Grounds</h2>
                         <h4 className="Desc">An interactive application meant to be an introduction to Virtual Reality.</h4>
