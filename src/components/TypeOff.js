@@ -21,8 +21,8 @@ class TypeOff extends Component {
     render(){
         return (
             <div className="container">
-                <div className="row my-5">
-                    <div className="col centerMainItem">
+                <div className="row pb-5 justify-content-center my-5">
+                    <div className="col-lg-9 centerMainItem">
                         <img className="img-fluid" src={typeOffBanner} alt="TypeOff game banner"/>
                         <h2>TypeOff</h2>
                         <h4 className="Desc">A web game that uses typing as its main mechanic.</h4>

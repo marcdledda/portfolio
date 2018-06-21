@@ -33,6 +33,12 @@ class WyFyMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
+                        </div>
+                    </div>
+                    
                     <div className="row">
                         <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
                             <h2>Datasets</h2>
@@ -53,22 +59,34 @@ class WyFyMain extends Component {
                             <h4>3. Google Maps React</h4>
                             <p>This component is the map used to show the user where they are currently located and where are the free wifi hotspots located.</p>
                         </div>
-
-                        <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
-                            <h2>Target Audience</h2>
+                    </div>
+                    
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
                         </div>
+                    </div>
 
-                        <div className="row px-lg-5 py-lg-4 centerItem centerImg">
-                                <img className="img-fluid personaImg" src={wyfyPersona} alt="WyFy Persona"/>
-                            <div className="col-lg">
-                                <h4>Meet Elliot</h4>
-                                <p>
-                                    Elliot just moved to Nashville for his new developer job. He works remote and on location, and the only place to do work outside of the office is at home. He wants to find new places he can complete work so he isn't stuck at home.
-                                </p>
-                                <p className="personaQuote font-italic">
-                                    "I get a lot of calls about work while I'm out, it's great to know where free local wifi is to help my team."
-                                </p>
-                            </div>
+                    <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
+                        <h2>Target Audience</h2>
+                    </div>
+
+                    <div className="row px-lg-5 py-lg-4 centerItem centerImg">
+                            <img className="img-fluid personaImg" src={wyfyPersona} alt="WyFy Persona"/>
+                        <div className="col-lg">
+                            <h4>Meet Elliot</h4>
+                            <p>
+                                Elliot just moved to Nashville for his new developer job. He works remote and on location, and the only place to do work outside of the office is at home. He wants to find new places he can complete work so he isn't stuck at home.
+                            </p>
+                            <p className="personaQuote font-italic">
+                                "I get a lot of calls about work while I'm out, it's great to know where free local wifi is to help my team."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
                         </div>
                     </div>
 
@@ -77,27 +95,32 @@ class WyFyMain extends Component {
                             <h2 className="mb-lg-4">Features</h2>
                             <h4>Search</h4>
                             <img className="img-fluid" src={wyfySearch} alt="Search"/>
-                            <p className="font-italic pb-lg-5 mb-lg-5">
+                            <p className="font-italic pt-3 pb-lg-5 mb-lg-5">
                                 Search using keywords
                             </p>
                             <h4>Geolocation</h4>
                             <img className="img-fluid" src={wyfyLocation} alt="Location"/>
-                            <p className="font-italic pb-lg-5 mb-lg-5">
+                            <p className="font-italic pt-3 pb-lg-5 mb-lg-5">
                                 Press the bottom navigation bar to find current location; it also shows how far the location is by miles
                             </p>
                             <h4>Extended List View</h4>
                             <img className="img-fluid" src={wyfyExtend} alt="Extends"/>
-                            <p className="font-italic pb-lg-5 mb-lg-5">
+                            <p className="font-italic pt-3 pb-lg-5 mb-lg-5">
                                 Press the arrow to extend the view location
                             </p>
                             <h4>Details View</h4>
                             <img className="img-fluid" src={wyfyDetails} alt="Details"/>
-                            <p className="font-italic">
+                            <p className="font-italic pt-3">
                                 Pressing more will give the user more details about the location
                             </p>
                         </div>
                     </div>
 
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
+                        </div>
+                    </div>
 
                     <div className="row justify-content-center">
                         <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">

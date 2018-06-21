@@ -36,6 +36,12 @@ class TGroundsMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
+                        </div>
+                    </div>
+
                     <div className="row">
                         <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
                             <h2>User Research</h2>
@@ -51,6 +57,12 @@ class TGroundsMain extends Component {
                         <div className="col-lg-6 pb-lg-4">
                             <h4>2. A Guide</h4>
                             <p>If possible, it would be nice to have someone guide them through their first time using a VR headset.</p>
+                        </div>
+                    </div>
+
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
                         </div>
                     </div>
 
@@ -71,13 +83,25 @@ class TGroundsMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
+                        </div>
+                    </div>
+
                     <div className="row">
                         <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
                             <h2>Sketches</h2>
                             <img className="img-fluid" src={sketches} alt="Sketches of Testing Grounds"/>
-                            <p className="px-lg-5 mb-lg-5">
+                            <p className="px-lg-5 pt-3 mb-lg-5">
                                 My initial idea to select the tests were to be on a pad that Katy can select. I decided to change it to a pill, as it seemed to fit the theme of a labratory more. Other than that, the room's area was doubled in order to give Katy more space to react to the tests.
                             </p>
+                        </div>
+                    </div>
+
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
                         </div>
                     </div>
 
@@ -86,21 +110,27 @@ class TGroundsMain extends Component {
                             <h2 className="mb-lg-4">Features</h2>
                             <h4>Dexterity Test</h4>
                             <img className="img-fluid" src={tgDexTest} alt="Dexterity Test"/>
-                            <p className="font-italic pb-lg-5 mb-lg-5">
-                                This test aims to get Katy moving, showing off the head tracking
+                            <p className="font-italic pt-3 pb-lg-5 mb-lg-5">
+                                This test aims to get the user moving, showing off the head tracking
                             </p>
                             <h4>Reflex Test</h4>
                             <img className="img-fluid" src={tgRefTest} alt="Reflex Test"/>
-                            <p className="font-italic pb-lg-5 mb-lg-5">
-                                This test will get Katy comfortable with the controllers
+                            <p className="font-italic pt-3 pb-lg-5 mb-lg-5">
+                                This test will get the user comfortable with the controllers
                             </p>
                             <h4>Composite Test</h4>
                             <img className="img-fluid" src={tgBothTest} alt="Composite Test"/>
-                            <p className="font-italic pb-lg-5 mb-lg-5">
+                            <p className="font-italic pt-3 pb-lg-5 mb-lg-5">
                                 The last test combines the previous two tests into one composite test
                             </p>
                         </div>
-                    </div>                    
+                    </div>              
+                         
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
+                        </div>
+                    </div>
 
                     <div className="row justify-content-center">
                         <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">

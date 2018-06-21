@@ -21,8 +21,8 @@ class WyFy extends Component{
     render(){
         return(
             <div className="container">
-                <div className="row my-5">
-                    <div className="col centerMainItem">
+                <div className="row pb-5 justify-content-center my-5 bottomBorder">
+                    <div className="col-lg-9 centerMainItem">
                         <img className="img-fluid" src={wyfyMain} alt="WyFy Banner"/>
                         <h2>WyFy</h2>
                         <h4 className="Desc">An app to find local free wifi hotspots based on your location or zipcode.</h4>

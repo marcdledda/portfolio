@@ -39,6 +39,12 @@ class TypeOffMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
+                        </div>
+                    </div>
+                    
                     <div className="row">
                         <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
                             <h2>User Research</h2>
@@ -60,7 +66,13 @@ class TypeOffMain extends Component {
                             <p>All of the users have never played, nor were they willing, to play a typing game on a phone or a tablet.</p>
                         </div>
                     </div>
-                    
+                   
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
+                        </div>
+                    </div>
+
                     <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
                         <h2>Target Audience</h2>
                     </div>
@@ -78,6 +90,12 @@ class TypeOffMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
+                        </div>
+                    </div>
+
                     <div className="row">
                         <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
                             <h2>Sketches</h2>
@@ -92,38 +110,44 @@ class TypeOffMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
+                        </div>
+                    </div>
+
                     <div className="row">
                         <div className="col-12 text-center px-lg-5 py-lg-4 mx-auto mt-5">
                             <h2 className="mb-lg-4">Features</h2>
                             <h4>Main Menu</h4>
                             <img className="img-fluid" src={mainMenu} alt="Main Menu"/>
-                            <p className="font-italic pb-lg-5 mb-lg-5">
+                            <p className="font-italic pt-3 pb-lg-5 mb-lg-5">
                                 The main page to go to the rest of the web game
                             </p>
                             <h4>Tutorial + Main Game</h4>
                             <img className="img-fluid" src={tutorialGame} alt="Main Menu"/>
-                            <p className="font-italic pb-lg-5 mb-lg-5">
+                            <p className="font-italic pt-3 pb-lg-5 mb-lg-5">
                                 A tutorial page to inform on how to play the game, as well as load the API in the background; the main game that includes the typing mechanic
                             </p>
                             <div className="row">
                                 <div className="col-lg-4 text-center">
                                     <h4>User Scores Page</h4>
                                     <img className="img-fluid" src={myScores} alt="My Scores Page"/>
-                                    <p className="font-italic">
+                                    <p className="font-italic pt-3">
                                         This page shows the top 10 scores of the logged in user
                                     </p>
                                 </div>
                                 <div className="col-lg-4 text-center">
                                     <h4>Leaderboards</h4>
                                     <img className="img-fluid" src={leaderboards} alt="Leaderboards Page"/>
-                                    <p className="font-italic">
+                                    <p className="font-italic pt-3">
                                         This pages shows the top 10 scores of all users
                                     </p>
                                 </div>
                                 <div className="col-lg-4 text-center">
                                     <h4>Following &#38; Followers</h4>
                                     <img className="img-fluid" src={following} alt="Following Page"/>
-                                    <p className="font-italic">
+                                    <p className="font-italic pt-3">
                                         This page shows who you're following and who follows you; this way you can track their highscore
                                     </p>
                                 </div>
@@ -131,6 +155,12 @@ class TypeOffMain extends Component {
                         </div>
                     </div>
 
+                    <div className="row justify-content-center">
+                        <div className="col-5 bottomBorder">
+                            {/* BORDER LINE */}
+                        </div>
+                    </div>
+                    
                     <div className="row justify-content-center">
                         <div className="col-12 text-center px-lg-5 pt-lg-4 mx-auto mt-5">
                             <h2>Reflections</h2>
